@@ -1,0 +1,51 @@
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(15, 20, 25);
+  line-height: 20px;
+  padding: 0 0 0 300px;
+  overflow-x: hidden;
+}
+
+.none-overflow {
+  overflow-y: hidden;
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 10000;
+
+  background-color: white;
+}
+
+.preloader__img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 7rem;
+  height: 7rem;
+}
+
+.preloader--hidden {
+  display: none;
+}
+
+a {
+  color: rgb(15, 20, 25);
+}
+
+textarea {
+  resize: none;
+}
+
+@media (max-width: 1200px) {
+  body {
+    padding-left: 70px;
+  }
+}
